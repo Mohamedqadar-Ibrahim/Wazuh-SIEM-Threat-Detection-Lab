@@ -194,7 +194,7 @@ An incorrect password was intentionally entered multiple times to trigger authen
 
 ### Brute Force Command
 
-![Failed Login Command](images/bruteforce_command.png)
+![Failed Login Command](SS%2012.PNG)
 
 ---
 
@@ -202,7 +202,7 @@ An incorrect password was intentionally entered multiple times to trigger authen
 
 The SIEM dashboard shows multiple authentication failures occurring within a short timeframe.
 
-![Authentication Dashboard](images/auth_dashboard.png)
+![Authentication Dashboard](SS%2013.PNG)
 
 ---
 
@@ -211,6 +211,7 @@ The SIEM dashboard shows multiple authentication failures occurring within a sho
 The alerts confirm multiple login failures with timestamps.
 
 ![Authentication Alerts](images/auth_alerts.png)
+![Authentication Alerts](SS%2014.PNG)
 
 ---
 
