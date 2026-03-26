@@ -139,7 +139,7 @@ This action simulates a common attacker technique where a compromised system is 
 
 The Wazuh SIEM detected the creation of a new account.
 
-![User Account Alert](images/user_account_created.png)
+![User Account Alert](SS%2010.PNG)
 
 ---
 
@@ -147,7 +147,7 @@ The Wazuh SIEM detected the creation of a new account.
 
 The alert details confirm the creation of the user account and the timestamp of the event.
 
-![User Details](images/user_details.png)
+![User Details](SS%2011.PNG)
 
 ---
 
