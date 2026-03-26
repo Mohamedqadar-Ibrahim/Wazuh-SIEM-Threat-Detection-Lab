@@ -210,7 +210,6 @@ The SIEM dashboard shows multiple authentication failures occurring within a sho
 
 The alerts confirm multiple login failures with timestamps.
 
-![Authentication Alerts](images/auth_alerts.png)
 ![Authentication Alerts](SS%2014.PNG)
 
 ---
@@ -269,7 +268,7 @@ Attackers often create malicious services to:
 
 ### Service Creation Command
 
-![Service Creation](images/service_creation_command.png)
+![Service Creation](SS%2015.PNG)
 
 ---
 
@@ -277,7 +276,7 @@ Attackers often create malicious services to:
 
 Wazuh successfully detected the service installation.
 
-![Service Alert](images/service_alert.png)
+![Service Alert](SS%2016.PNG)
 
 ---
 
@@ -285,7 +284,7 @@ Wazuh successfully detected the service installation.
 
 The alert shows the exact service name and executable path used.
 
-![Service Details](images/service_details.png)
+![Service Details](SS%2017.PNG)
 
 ---
 
