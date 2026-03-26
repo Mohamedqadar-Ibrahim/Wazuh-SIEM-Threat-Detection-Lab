@@ -6,7 +6,7 @@
 ![Platform](https://img.shields.io/badge/Platform-Windows%20Endpoint-green)
 ![Environment](https://img.shields.io/badge/Lab-Virtualised-orange)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
-
+![Initial Splunk Dashboard](screenshots/SS%2017.PNG)
 ---
 
 # 📌 Project Overview
