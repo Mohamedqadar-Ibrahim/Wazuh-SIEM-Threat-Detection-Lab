@@ -6,7 +6,7 @@
 ![Platform](https://img.shields.io/badge/Platform-Windows%20Endpoint-green)
 ![Environment](https://img.shields.io/badge/Lab-Virtualised-orange)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
-![Initial Splunk Dashboard](SS%2017.PNG)
+
 ---
 
 # 📌 Project Overview
@@ -84,7 +84,7 @@ Endpoint → Log Collection → Detection Engine → Alert Indexing → Analyst 
 
 Below is the main Wazuh dashboard showing the security monitoring interface and aggregated alerts across the environment.
 
-![Dashboard](images/dashboard_overview.png)
+![Dashboard](SS%205.PNG)
 
 The dashboard provides real-time monitoring of:
 
