@@ -131,7 +131,7 @@ This action simulates a common attacker technique where a compromised system is 
 
 ### Account Creation
 
-![Account Creation Command](images/account_creation_command.png)
+![Account Creation Command](SS%209.PNG)
 
 ---
 
