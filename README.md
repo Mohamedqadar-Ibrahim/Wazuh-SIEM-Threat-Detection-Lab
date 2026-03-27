@@ -393,13 +393,3 @@ By simulating realistic attack scenarios and analysing the resulting alerts, the
 
 ---
 
-# 👤 Author
-
-Cyber Security Enthusiast focused on:
-
-• Security Operations (SOC)
-• Threat Detection
-• SIEM Engineering
-• Incident Investigation
-
----
