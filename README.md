@@ -228,7 +228,9 @@ SOC teams typically configure automated responses such as:
 During analysis of authentication alerts, the following was identified:
 
 Wazuh Rule ID: 60122
+
 Severity Level: 5 (Medium)
+
 Description: Multiple authentication failures detected within a short timeframe
 
 The alerts were correlated with Windows Security Event Logs:
