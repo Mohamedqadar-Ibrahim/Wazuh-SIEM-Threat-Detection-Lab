@@ -223,6 +223,23 @@ SOC teams typically configure automated responses such as:
 • IP blocking
 • Alert escalation
 
+## 🔎 Alert & Log Correlation
+
+During analysis of authentication alerts, the following was identified:
+
+Wazuh Rule ID: 60122
+Severity Level: 5 (Medium)
+Description: Multiple authentication failures detected within a short timeframe
+
+The alerts were correlated with Windows Security Event Logs:
+
+Event ID 4625 → Failed login attempts
+No Event ID 4624 (successful login) observed
+📊 Observed Pattern
+Multiple failed login attempts targeting the Administrator account
+Activity occurred within a short time window
+No successful authentication achieved
+
 ---
 
 # 3️⃣ Suspicious Service Creation (Persistence Technique)
