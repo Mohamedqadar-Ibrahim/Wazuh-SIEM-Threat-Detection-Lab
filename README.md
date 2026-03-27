@@ -161,11 +161,6 @@ A SOC analyst would treat unexpected administrator account creation as a **high 
 
 This type of activity maps to the following MITRE ATT&CK techniques.
 
-| Technique            | ID    |
-| -------------------- | ----- |
-| Account Creation     | T1136 |
-| Privilege Escalation | T1078 |
-
 ---
 
 # 2️⃣ Brute Force Authentication Attempt
@@ -227,12 +222,6 @@ SOC teams typically configure automated responses such as:
 • Temporary account lockouts
 • IP blocking
 • Alert escalation
-
-MITRE ATT&CK mapping:
-
-| Technique   | ID    |
-| ----------- | ----- |
-| Brute Force | T1110 |
 
 ---
 
@@ -297,12 +286,6 @@ SOC analysts investigate these events by verifying:
 • Service legitimacy
 • Binary location
 • Associated process activity
-
-MITRE ATT&CK mapping:
-
-| Technique                       | ID    |
-| ------------------------------- | ----- |
-| Create or Modify System Process | T1543 |
 
 ---
 
