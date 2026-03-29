@@ -272,7 +272,9 @@ sc delete MalwareService
 Attackers often create malicious services to:
 
 • Maintain persistence on compromised systems
+
 • Execute malware automatically
+
 • Bypass detection mechanisms
 
 ---
@@ -308,7 +310,9 @@ Unexpected service installation is a **strong indicator of compromise**.
 SOC analysts investigate these events by verifying:
 
 • Service legitimacy
+
 • Binary location
+
 • Associated process activity
 
 ---
@@ -338,7 +342,9 @@ The Wazuh agent continuously monitors Windows event logs and forwards security d
 Instead of relying solely on malware signatures, the SIEM detects **suspicious behaviour patterns**, including:
 
 • privilege changes
+
 • authentication anomalies
+
 • system configuration changes
 
 ---
@@ -354,10 +360,15 @@ All endpoint activity is aggregated into a **single investigation dashboard**, e
 This project demonstrates hands-on experience with:
 
 • SIEM deployment and configuration
+
 • Endpoint monitoring with Wazuh agents
+
 • Security event analysis
+
 • Attack simulation and detection
+
 • Log analysis and investigation
+
 • Security operations workflows
 
 ---
@@ -367,8 +378,11 @@ This project demonstrates hands-on experience with:
 During this project the following concepts were explored:
 
 • How SIEM platforms collect and analyse endpoint telemetry
+
 • How attacker behaviour generates detectable security events
+
 • How SOC analysts investigate alerts and security anomalies
+
 • The importance of monitoring authentication and privilege activity
 
 ---
@@ -378,9 +392,13 @@ During this project the following concepts were explored:
 Potential enhancements to this lab include:
 
 • Adding a **Kali Linux attacker machine**
+
 • Simulating **network attacks (port scanning / brute force)**
+
 • Integrating **threat intelligence feeds**
+
 • Creating **custom Wazuh detection rules**
+
 • Expanding the environment to monitor multiple endpoints
 
 ---
