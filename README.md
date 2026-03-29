@@ -89,9 +89,13 @@ Below is the main Wazuh dashboard showing the security monitoring interface and 
 The dashboard provides real-time monitoring of:
 
 • Security events
+
 • Authentication activity
+
 • Privilege escalation attempts
+
 • Endpoint alerts
+
 • Agent status
 
 ---
@@ -122,7 +126,9 @@ This action simulates a common attacker technique where a compromised system is 
 ## Attacker Objective
 
 • Establish administrative control
+
 • Maintain persistence on the system
+
 • Escalate privileges for further lateral movement
 
 ---
@@ -156,7 +162,9 @@ The alert details confirm the creation of the user account and the timestamp of 
 A SOC analyst would treat unexpected administrator account creation as a **high priority investigation**, as it may indicate:
 
 • Insider threat
+
 • Malware persistence
+
 • Unauthorized system access
 
 This type of activity maps to the following MITRE ATT&CK techniques.
@@ -180,7 +188,9 @@ An incorrect password was intentionally entered multiple times to trigger authen
 ## Attacker Objective
 
 • Gain access through password guessing
+
 • Identify weak authentication mechanisms
+
 • Escalate access privileges
 
 ---
@@ -214,13 +224,17 @@ The alerts confirm multiple login failures with timestamps.
 Repeated authentication failures often indicate:
 
 • Password brute force attacks
+
 • Credential stuffing attempts
+
 • Unauthorized access attempts
 
 SOC teams typically configure automated responses such as:
 
 • Temporary account lockouts
+
 • IP blocking
+
 • Alert escalation
 
 ## 🔎 Alert & Log Correlation
